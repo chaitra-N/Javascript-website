@@ -13,7 +13,79 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>scroll project</h1>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./logo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">projects</a>
+              </li>
+              <li>
+                <a href="#experience" class="scroll-link">experience</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Hi there,</h1>
+          <p>
+            My name is chaitra, you can call me chai! (YES!! like chai latte). I
+            am a web developer and a fellow book nerd who loves reading and
+            getting lost in the book world.
+          </p>
+          <a href="#projects" class="scroll-link btn btn-white"
+            >explore projects</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>about <span>me</span></h2>
+      </div>
+    </section>
+    <!-- services -->
+    <section id="projects" class="section">
+      <div class="title">
+        <h2>My <span>projects</span></h2>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="experience" class="section">
+      <div class="title">
+        <h2>my <span>experience</span></h2>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; Developer Web development Entreprenuer
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
