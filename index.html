@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
+    <!-- <script
+      src="https://kit.fontawesome.com/8237167bbc.js"
+      crossorigin="anonymous"
+    ></script> -->
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -81,8 +85,37 @@
     </section>
     <!-- contact -->
     <section id="contact" class="section">
-      <div class="title">
-        <h2>contact <span>me</span></h2>
+      <h2 class="title">contact <span>me</span></h2>
+      <span class="subtitle">get in touch</span>
+      <div class="contact__container containeR grid">
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="conatct__content">
+              <label for="" class="contact__label">Name</label>
+              <input type="text" class="contact__input" />
+            </div>
+            <div class="conatct__content">
+              <label for="" class="contact__label">Email</label>
+              <input type="email" class="contact__input" />
+            </div>
+          </div>
+          <div class="conatct__content">
+            <label for="" class="contact__label">Message</label>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="7"
+              class="contact__input"
+            ></textarea>
+          </div>
+          <div>
+            <a href="#" class="button btn-white">
+              Send Message
+              <i class="fas fa-paper-plane"></i>
+            </a>
+          </div>
+        </form>
       </div>
     </section>
     <!-- footer -->
@@ -96,6 +129,6 @@
       <i class="fas fa-arrow-up"></i>
     </a>
     <!-- javascript -->
-    <script src="app.js"></script>
+    <script src="./javascript/app.js"></script>
   </body>
 </html>
